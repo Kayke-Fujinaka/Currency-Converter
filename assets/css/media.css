@@ -1,0 +1,59 @@
+@media (max-width: 500px) {
+    body {
+        background-color: #F4F4F4;
+    }
+
+    #container {
+        width: 100%;
+        height: 100vh;
+        margin: 0;
+    }
+
+    label {
+        display: block;
+        padding-top: 20px;
+        font-size: 14px;
+        color: #777777;
+    }
+
+    label select, input {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 250px) {
+    header {
+        height: 36px;
+    }
+    header h1 {
+        padding: 10px;
+        font-size: 15px;
+    }
+    main {
+        padding: 0 10px 25px;
+    }
+    label {
+        font-size: 11px;
+    }
+    label select, input {
+        height: 40px;
+        font-size: 10px;
+    }
+    button {
+        height: 35px;
+        margin: 20px 0 20px;
+        font-size: 11px;
+        border-radius: 15px;
+    }
+    .currency-name {
+        font-size: 10px;
+    }
+    .currency-value {
+        font-size: 13px;
+    }
+}
