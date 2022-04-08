@@ -1,6 +1,6 @@
 # Currency Converter
 
-<img src="./assets/img/gif.gif" width="850px" height="500px" alt="Gif do Teste">
+<img src="./assets/img/gif.gif" width="850px" alt="Gif do Teste">
 
 >  O projeto é um conversor de moedas que converte de reais para diferentes moedas.
 
