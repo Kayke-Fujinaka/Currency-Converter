@@ -4,7 +4,7 @@
 
 >  O projeto é um conversor de moedas que converte de reais para diferentes moedas.
 
-Confira a aplicação: https://kayke-fujinaka.github.io/Currency-Converter/
+Confira a aplicação: https://currency-converter-dev.netlify.app
 
 ## :page_facing_up: Explicação
 
