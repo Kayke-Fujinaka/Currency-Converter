@@ -1,24 +1,27 @@
 const button = document.getElementById("currency-button")
 const select = document.getElementById("currency-select")
 
-const dollarAmericano = 4.74
 const dollarCanadense= 3.76
 const dollarAustraliano= 3.53
-const euro = 5.15
 const libra = 6.17
 const franco = 5.06
 const coroaDinarmaquesa = 0.69
 const rand = 0.32
 const iene = 0.038
 const won = 0.0039
-const bitcoin = 204674.93
 
-
-
-const buttonClick = () => {
+const buttonClick = async () => {
     const input = document.getElementById("input-value").value
     const realValue = document.getElementById("real-value-text")
     const dollarValue = document.getElementById("us-value-text")
+
+    const data = await fetch("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL").then(response => response.json())
+
+    const dollarAmericano = data.USDBRL.high 
+    const euro = data.EURBRL.high 
+    const bitcoin = data.BTCBRL.high 
+
+    console.log(data)
 
     realValue.innerHTML = new Intl.NumberFormat("pt-BR",
         { style: "currency", currency: "BRL" }
