@@ -20,17 +20,17 @@ Além disso, o projeto disponibiliza trocar o valor convertido em outras moedas.
 
 O valor de 1 moeda para real até o dia (08/04/2022 15h27) que foi realizada esta aplicação:
 
-Dólar americano = 4,74<br>
+Dólar americano = Conversão em tempo real<br>
 Dólar canadense = 3.76<br>
 Dólar australiano = 3.53<br>
-Euro = 5,15<br>
+Euro = Conversão em tempo real<br>
 Libra esterlina = 6,17<br>
 Franco suíço = 5.06<br>
 Coroa dinamarquesa = 0.69<br>
 Rand sul-africano = 0.32<br>
 Iene japonês = 0,038<br>
 Won sul-coreano = 0,0039<br>
-Bitcoin = 204674,93
+Bitcoin = Conversão em tempo real
 
 As moedas estão formatadas de acordo como é em seu país.
 
