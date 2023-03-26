@@ -1,85 +1,84 @@
-# Currency Converter
+<h1 align="center">🪙 Currency Converter</h1>
 
 <img src="./assets/img/gif.gif" width="850px" alt="Gif do Teste">
 
->  O projeto é um conversor de moedas que converte de reais para diferentes moedas.
+> The project is a currency converter that converts from reais to different currencies.
 
-Confira a aplicação: https://currency-converter-dev.netlify.app
+Check out the app: https://currency-converter-dev.netlify.app
 
-## :page_facing_up: Explicação
+## :page_facing_up: Explanation
 
-A aplicação é um conversor de moedas. Ele converte de real para 11 diferentes moedas, sendo elas: Dólar americano, Dólar canadense, Dólar australiano, Euro, Libra esterlina, Franco suíço, Coroa dinamarquesa, Rand sul-africano, Iene japonês, Won sul-coreano e Bitcoin.
+The application is a currency converter. It converts from real to 11 different currencies, namely: US Dollar, Canadian Dollar, Australian Dollar, Euro, British Pound, Swiss Franc, Danish Krone, South African Rand, Japanese Yen, South Korean Won and Bitcoin.
 
-<b>Como usar?</b>
+<b>How to use?</b>
 
-Para utilizar, você precisa colocar um valor no input que está escrito "R$ 10.000,00". Depois só precisa apertar no botão e ver o valor convertido. 
+To use it, you need to put a value in the input that says "R$ 10,000.00". Then you just need to press the button and see the converted value.
 
-Além disso, o projeto disponibiliza trocar o valor convertido em outras moedas. Para selecionar basta clicar no select e vai ter 11 opções de moedas e só escolher uma delas. Ao clicar a formatação, conversão, nome e imagem que está na parte de baixo do projeto irá alterar de acordo com a moeda selecionada.
+In addition, the project makes it possible to exchange the amount converted into other currencies. To select just click on select and you will have 11 currency options and just choose one of them. By clicking on the formatting, conversion, name and image that is at the bottom of the project will change according to the selected currency.
 
-<b>Informações!</b>
+<b>Information!</b>
 
-O valor de 1 moeda para real até o dia (08/04/2022 15h27) que foi realizada esta aplicação:
+The value of 1 currency for real until the day (08/04/2022 15:27) in which this application was made:
 
-Dólar americano = Conversão em tempo real<br>
-Dólar canadense = 3.76<br>
-Dólar australiano = 3.53<br>
-Euro = Conversão em tempo real<br>
-Libra esterlina = 6,17<br>
-Franco suíço = 5.06<br>
-Coroa dinamarquesa = 0.69<br>
-Rand sul-africano = 0.32<br>
-Iene japonês = 0,038<br>
-Won sul-coreano = 0,0039<br>
-Bitcoin = Conversão em tempo real
+US dollar = Real-time conversion<br>
+Canadian dollar = 3.76<br>
+Australian dollar = 3.53<br>
+Euro = Real-time conversion<br>
+Pound Sterling = 6.17<br>
+Swiss franc = 5.06<br>
+Danish Krone = 0.69<br>
+South African Rand = 0.32<br>
+Japanese yen = 0.038<br>
+South Korean won = 0.0039<br>
+Bitcoin = Live Conversion
 
-As moedas estão formatadas de acordo como é em seu país.
+Currencies are formatted according to your country.
 
-Por exemplo: Temos R$ 1000 reais convertidos em Won serão aproximadamente 256 mil wons, ou seja, esse dinheiro formatado ficará ₩256,410 e não ₩256.410 como é a formatação do Brasil e outro países do mundo.
+For example: We have R$ 1000 reais converted into won will be approximately 256 thousand won, that is, this formatted money will be ₩256,410 and not ₩256,410 as is the formatting of Brazil and other countries in the world.
 
-## :dart: Etapas do Projeto ##
+## :dart: Project Steps ##
 
-:heavy_check_mark: Estruturação da página com HTML;\
-:heavy_check_mark: Estilização da página utilizando CSS;\
-:heavy_check_mark: Aplicando o JavaScript;\
-:heavy_check_mark: Chamar uma função ao clicar no botão;\
-:heavy_check_mark: Converter o valor da moeda ao clicar no botão;\
-:heavy_check_mark: Ao mudar a opção do Select a imagem e o nome da moeda mudam;\
-:heavy_check_mark: Formatação da moeda com biblioteca interna do JavaScript (Intl.NumberFormat);\
-:heavy_check_mark: Responsividade;\
-:heavy_check_mark: Adicionei mais 5 moedas, sendo: Dólar canadense, Dólar australiano, Franco suíço, Coroa dinamarquesa e Rand;\
-:heavy_check_mark: Finalizado;
+:heavy_check_mark: Structuring the page with HTML;\
+:heavy_check_mark: Styling the page using CSS;\
+:heavy_check_mark: Applying JavaScript;\
+:heavy_check_mark: Call a function on button click;\
+:heavy_check_mark: Convert currency value on button click;\
+:heavy_check_mark: When changing the Select option the image and the name of the currency change;\
+:heavy_check_mark: Currency formatting with built-in JavaScript library (Intl.NumberFormat);\
+:heavy_check_mark: Responsiveness;\
+:heavy_check_mark: Added 5 more currencies: Canadian Dollar, Australian Dollar, Swiss Franc, Danish Krone and Rand;\
+:heavy_check_mark: Done;
 
-## :rocket: Tecnologias ##
+## :rocket: Technologies ##
 
-Neste projeto foram utilizadas as seguintes ferramentas:
+The following tools were used in this project:
 
-- [Html](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/html/)  
-- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)  
-- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) 
-- [Intl.NumberFormat](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat) 
+- [Html](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html/)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Intl.NumberFormat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat)
 
+## 🤝 Contributors
 
-## 🤝 Colaboradores
-
-Agradecemos à seguinte pessoa que contribuiu para este projeto:
+We want to thank the following people who contributed to this project:
 
 <table>
   <tr>
     <td align="center">
       <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/98772000?s=400&u=80de9af672be7f75cc7a546838552cf63d5b82fe&v=4" width="140px;" alt="Foto do Kayke Fujinaka no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/98772000?s=400&u=80de9af672be7f75cc7a546838552cf63d5b82fe&v=4" width="100px;" alt="Kayke Fujinaka's photo on GitHub"/><br>
         <sub>
-          <b>Kayke Alves Fujinaka</b>
+          <b>Kayke Fujinaka</b>
         </sub>
       </a>
     </td>
   </tr>
 </table>
 
-## 📝 Licença
+## 📝 License
 
-Este projeto está sob licença. Consulte o arquivo [LICENSE](LICENSE.md) para obter mais detalhes.
+This project is under license. See the [LICENSE](LICENSE.md) file for more details.
 
 &#xa0;
 
-<a href="#top">Volte para o topo</a>
+<a href="#top">Back to top</a>
